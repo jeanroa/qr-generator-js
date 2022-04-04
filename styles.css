@@ -67,7 +67,29 @@ form {
 
 .qrcode{
   padding: 16px;
+  margin-top: 40px;
 }
 .qrcode img{
   margin: 0 auto;
 }
+
+@media screen and (max-width:768px) {
+  .form {
+    width:50%;
+    overflow: hidden !important;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .form {
+    width:80%;
+    overflow: hidden !important;
+    border-radius: 0;
+  }
+
+  .form button {
+    width: 60%;
+  }
+}
+
+
